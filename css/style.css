@@ -1,0 +1,467 @@
+header {
+    width: 100%;
+    box-shadow: 0 3px 6px #00000029;
+    display: flex;
+    justify-content: center;
+    
+}
+header .container {
+    width: 1352px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .container ul{
+    display: flex;
+}
+header .container ul li{
+    list-style: none;
+    padding: 10px 30px 30px 30px;
+}
+header .container ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: #a5a5a5;
+    padding: 10px 30px 25px 30px;
+
+}
+header .container ul li a:hover{
+    color: black;
+    font-weight: bold;
+    box-shadow: inset 0 -4px 0 #08a6e4;
+}
+header .container ul li a.active{
+    color: black;
+    font-weight: bold;
+    box-shadow: inset 0 -4px 0 #08a6e4;
+}
+header .logo a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 32px;
+    color: #08a6e4;
+}
+section.open {
+    width: 100%;
+    padding-top: 140px;  
+}
+section.open .container{
+    background-image: url("../assets/Background.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+}
+section.open .container h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 49px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+section.open .container p{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+section.open .container .cta{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+section.open .container .cta a{
+    background-color: #08a6e4;
+    padding: 1.5em 9em;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+section.stats h2{
+    font: 32px 'Raleway';
+    text-align: center;
+    font-weight: normal;
+    padding-top: 100px;
+}
+section.stats .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: 50%;
+}
+section.stats .container div{
+    width: 120px;
+    position: relative;
+}
+section.stats .container .red{
+    background-color: #FB3B64;
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+section.stats .container .blue{
+    background-color: #08A6E4;
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+section.stats .container .green{
+    background-color: #55DFB4;
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+section.stats .container div h3{
+    text-align: center;
+    font: 800 20px 'Raleway';
+    letter-spacing: 6px;
+    padding: 15px 0;
+}
+section.stats .container div p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #a5a5a5;
+    letter-spacing: 0px;
+}
+section.stats .container div img{
+    position: absolute;
+    top: 33px;
+    right: 5px;
+    transform: translate(0, -50%);
+}
+
+
+section.benefits .container{
+    margin: 0 auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+section.benefits .container div h2{
+    font: normal 42px 'Raleway';
+    padding: 20px;
+    padding-right: 100px;
+}
+section.benefits .container div p{
+    font: normal 16px 'Open Sans';
+    padding: 10px 20px;
+}
+section.benefits .container .notebook {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+section.benefits .container .notebook div:first-child{
+    width: 80%;
+    padding-right: 160px;
+}
+section.benefits .container .notebook div:nth-of-type(2){
+    position: relative;
+}
+section.benefits .container .notebook img{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 110px;
+    z-index: 2;
+}
+section.benefits .container .notebook .red{
+    position: absolute;
+    background-color: #FB3B64;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    transform:rotate(45deg);
+    top: 0;
+    right: 20%;
+}
+section.benefits .container .phone {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+section.benefits .container .phone div:first-child{
+    width: 80%;
+    padding-left: 120px;
+}
+section.benefits .container .phone img{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+}
+section.benefits .container .phone div:nth-of-type(2){
+    position: relative;
+}
+section.benefits .container .phone .blue{
+    position: absolute;
+    background-color: #07ace6;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
+section.benefits .container .megaphone {
+    display: flex;
+    padding-top: 40px;
+}
+section.benefits .container .megaphone div:first-child{
+    width: 80%;
+    padding-right: 180px;
+}
+section.benefits .container .megaphone img{
+    width: 80%;
+    margin: auto;
+}
+section.benefits .container .megaphone div:nth-of-type(2){
+    background-color: #55DFB4;
+    padding: 90px 20px 50px 40px;
+}
+section.benefits .container .notebook .line-r{
+    width: 70%;
+    height: 4px;
+    background-color: #FB3B64;
+    margin: 40px 0 0 20px;
+}
+section.benefits .container .phone .line-b{
+    width: 70%;
+    height: 4px;
+    background-color: #08A6E4;
+    margin: 40px 0 0 20px;
+}
+section.benefits .container .megaphone .line-g{
+    width: 70%;
+    height: 4px;
+    background-color: #55DFB4;
+    margin: 40px 0 0 20px;
+}
+
+section.pricing h2{
+    text-align: center;
+    font: normal 36px 'Raleway';
+    padding-top: 5em;
+}
+section.pricing .container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+section.pricing .container div{
+    position: relative;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 18px;
+    padding: 50px 120px;
+    margin: 0 40px;
+}
+section.pricing .container h3{
+    font: bold 20px 'Raleway';
+    color: #13253b;
+}
+section.pricing .container h4{
+    font: 300 46px 'Open Sans';
+    color: #13253b;
+    padding: 10px 0;
+}
+section.pricing .container h5{
+    font: bold 12px 'Raleway';
+    color: #13253b;
+}
+section.pricing .container ul li{
+    font: normal 14px 'Open Sans';
+    padding: 12px 0;
+    list-style: none;
+}
+section.pricing .container ul li::before{
+    content: url(../assets/Ckechmark-1.svg);
+    padding-right: 6px;
+}
+section.pricing .container div:first-of-type ul li:last-of-type::before{
+    content: url(../assets/Close.svg);
+    padding-right: 6px;
+}
+section.pricing .container div:first-of-type ul li:nth-last-of-type(2)::before{
+    content: url(../assets/Close.svg);
+    padding-right: 6px;
+}
+section.pricing .container div:nth-of-type(2) ul li:last-of-type::before{
+    content: url(../assets/Close.svg);
+    padding-right: 6px;
+}
+section.pricing .container ul{
+    padding: 40px 0;
+}
+section.pricing .container div:first-of-type{
+    border-color: #FB3B64;
+}
+section.pricing .container div:nth-of-type(2){
+    border-color: #07ace6;
+}
+section.pricing .container div:last-of-type{
+    border-color: #55df84;
+}
+section.pricing .container div:first-of-type h4{
+    color: #FB3B64;
+    padding-bottom: 14px;
+}
+section.pricing .container div:nth-of-type(2) h4{
+    color: #07ace6;
+}
+section.pricing .container div:last-of-type h4{
+    color: #55df84;
+}
+section.pricing .container {
+    border-color: #55df84;
+}
+section.pricing .container .prof{
+    box-shadow: 5px 10px 27px #07ACE629;
+    transform: scale(1.1);
+}
+section.pricing .container a{
+    position: absolute;
+    text-decoration: none;
+    padding: 15px 55px;
+    border-radius: 40px;
+    color: white;
+    font: bold 13px 'Open Sans';
+    height: 50px;
+    width: 150px;
+    margin: auto;
+}
+section.pricing .container div:first-of-type a{
+    bottom: -25px;
+    left: 110px;
+    background-color: #EB476E;
+}
+section.pricing .container div:nth-of-type(2) a{
+    bottom: -25px;
+    left: 110px;
+    background-color: #07ACE6;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+section.pricing .container div:last-of-type a{
+    bottom: -25px;
+    left: 110px;
+    background-color: #55DFB4;
+}
+section.contact{
+    height: 60vh;
+}
+section.contact .container{
+    display: flex;
+    justify-content: center;
+    padding: 11em 0;
+}
+section.contact .container div{
+    padding: 0 40px;
+}
+section.contact .container h1{
+    font: normal 49px 'Raleway';
+    text-align: left;
+}
+section.contact .container p{
+    font: normal 16px 'Open Sans';
+    text-align: left;
+    padding: 10px 0 40px 0;
+}
+section.contact .container ul{
+    display: flex;
+}
+section.contact .container ul li{
+    list-style-type: none;
+    font: 600 16px 'Open Sans';
+    color: #a5a5a5;
+}
+section.contact .container ul li:first-of-type{
+    background-image: url(../assets/Mail\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 30px;
+}
+section.contact .container ul li:nth-of-type(2){
+    padding-right: 30px;
+}
+section.contact .container ul li:nth-of-type(3){
+    background-image: url(../assets/Phone\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 30px;
+}
+section.contact .container form{
+    width: 35vw;
+    margin: 0 40px;
+}
+section.contact .container form .row input{ 
+    width: 100%;
+    height: 2em;
+    border: none;
+    box-shadow: 0 1px black;
+    margin: 5px 0 30px 0;
+}
+section.contact .container form .row label{
+    font: bold 11px 'Open Sans';
+    color: #08A6E4;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+section.contact .container form .check input{
+    float: left;
+    margin: 0 15px 100px 0;
+}
+section.contact .container form .check label{
+    font: normal 12px 'Open Sans';
+    color: #707070;
+}
+section.contact .container form .send{
+    margin-top: 15px;
+}
+section.contact .container form .send input{
+    float: right;
+    padding: 20px 100px;
+    font: bold 13px 'Open Sans';
+    color: white;
+    border-radius: 40px;
+    background-color: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: none;
+}
+
+
+footer .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container a{
+    text-decoration: none;
+    font: 300 26px 'Raleway';
+    color: #08a6e4;
+}
+footer .container p{
+    font: normal 11px 'Open Sans';
+    color: #a5a5a5;
+}
+footer .container ul{
+    display: flex;
+}
+footer .container ul li{
+    list-style: none;
+}
+footer .container ul li a{
+    height: 100%;
+    padding: 0 15px
+}
